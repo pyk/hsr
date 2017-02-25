@@ -181,7 +181,8 @@ def inference(images):
     return logits
 
 def loss(logits, labels):
-    cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits, labels)
+    cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=logits, 
+        labels=labels)
     loss = tf.reduce_mean(cross_entropy)
     return loss
 
