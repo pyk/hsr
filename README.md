@@ -1,6 +1,6 @@
 # HSR
 
-This repository contains code that I use to build a model for hand signals 
+This repository contains code that I use to build a machine learning model for hand signals 
 recognition system.
 
 ![Eval example](hsr-eval.png)
